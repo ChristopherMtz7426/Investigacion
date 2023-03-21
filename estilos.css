@@ -1,0 +1,83 @@
+#caja{
+width: 350px;
+border: 1px solid;
+position: absolute;
+padding: 10px;
+margin-left: 40px;
+margin-top: -50px;
+border-color: rgb(176, 178, 180);
+}
+
+.container-flexbox{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#imagen{
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-color: aliceblue;
+    image-rendering:inherit;
+    image-resolution:initial;
+    margin-right: 15px;
+}
+.caja-destacada{
+    padding:15px 15px 20px 5px;
+    width: 720px;
+    height: auto;
+    border-left:5px solid rgba(151, 2, 2, 0.521);
+    background:#F5F5F5;
+    margin-bottom:30px;
+    line-height:26px !important;
+    }
+
+.area1,.area2,.area3,.area4,.area5,.area6,.area7,.area8{
+    width: 80px;
+    height: 80px;
+    padding-right: 5px;
+}
+
+#normatividad{
+flex-direction: row;
+}
+
+.registro{
+    width: 350px;
+    height: 223px;
+    flex-direction: row;
+}
+
+.form-control{
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+    margin-right: 1px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    width: 300px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 0 10px #ffffff, 0 0 20px  #fff, 0 0 30px #fff, 0 0 40px;
+z-index: 1;
+}
+
+.card:hover .card-content{
+    opacity: 1;
+}
